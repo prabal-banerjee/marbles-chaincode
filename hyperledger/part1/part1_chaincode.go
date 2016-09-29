@@ -302,3 +302,4 @@ func (t *SimpleChaincode) set_user(stub *shim.ChaincodeStub, args []string) ([]b
 	fmt.Println("- end set user")
 	return nil, nil
 }
+
